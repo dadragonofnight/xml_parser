@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML Parser</title>
+    <style>
+        body {
+            background-color: #f3f6f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .courier-header {
+            font-family: Courier, monospace;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="courier-header">XML Parser</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xml">
+        <button type="submit">Upload and Process</button>
+    </form>
+</body>
+</html>
